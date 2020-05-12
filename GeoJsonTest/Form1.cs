@@ -30,8 +30,8 @@ namespace GeoJsonTest
                 return;
 
             var geoFeature = Converter.GetGeoFeature(dialog.FileName);
-
             var fileName = Path.ChangeExtension(dialog.FileName, "xml");
+            
             geoFeature.SaveAsXml(fileName, 3);
 
             geoMap1.Source = fileName;
