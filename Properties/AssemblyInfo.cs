@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("GeoJsonLiveCharts")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("GeoJsonLiveCharts https://github.com/AeroYoung/GeoJsonLiveCharts")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("AeroYoung")]
 [assembly: AssemblyProduct("GeoJsonLiveCharts")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyCopyright("Copyright © AeroYoung 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

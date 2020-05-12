@@ -4,7 +4,13 @@ Live Charts Extension：Convert GeoJson to [LiveCharts](https://github.com/Live-
 
 ## Installation & Usage
 
-Visual Studio->Project->Item->Reference->Add->GeoJsonLiveCharts.dll
+Install using the [package manager console](https://docs.microsoft.com/zh-cn/nuget/consume-packages/install-use-packages-powershell#installing-a-package)
+```shell
+PM> Install-Package GeoJsonLiveCharts
+```
+Or go to Solution Explorer, right click on references, then Manage NuGet Packages.Browse for GeoJsonLiveCharts, select the package and click on install
+
+Then, write your code like this:
 
 ```csharp
 var geoFeature = Converter.GetGeoFeature("map_data.json");
