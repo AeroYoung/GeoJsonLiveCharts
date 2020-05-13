@@ -160,3 +160,7 @@ $RECYCLE.BIN/
 
 # VisualStudioCode
 .vscode
+
+.svn
+.svn/
+.nupkg
